@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/2375040-fundo-branco-moderno-gr%C3%A1tis-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sec1 {
+    display: flex;
+    height: 40vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+#sec1 article:first-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: #1a9795;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec1 article:last-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: #8c92c58b;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec2 {
+    display: flex;
+    height: 40vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+#sec2 article:first-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(26, 151, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec2 article:last-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: rgba(31, 42, 143, 0.307);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec3 {
+    display: flex;
+    height: 40vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+#sec3 article:first-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: hsl(179, 71%, 35%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec3 article:last-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: hsla(235, 33%, 66%, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec4 {
+    display: flex;
+    height: 40vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+#sec4 article:first-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
+
+#sec4 article:last-child {
+    height: 30vh;
+    width: 30vh;
+    background-color: currentColor;
+    color: white;
+    text-shadow: black 2px 2px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.558);
+}
